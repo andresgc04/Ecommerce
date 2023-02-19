@@ -7,7 +7,16 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: "Raleway", sans-serif;
+}
+
 /* Globales Start */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
 
 a {
   text-decoration: none;
@@ -81,8 +90,3 @@ img {
 }
 
 /* Categorías End */
-
-h1 {
-  font-size: 20px;
-  color: #000;
-}

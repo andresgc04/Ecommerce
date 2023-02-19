@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-size: 62.5%; /* 1REM = 10px */
 }
 *,
 *:before,
@@ -9,6 +10,7 @@ html {
 
 body {
   font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
 }
 
 /* Globales Start */
@@ -18,13 +20,17 @@ h3 {
   font-family: "Playfair Display", serif;
 }
 
+h3 {
+  font-size: 3rem;
+}
+
 a {
   text-decoration: none;
   color: #000;
 }
 
 .contenedor {
-  max-width: 1200px;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
@@ -37,9 +43,10 @@ img {
 
 /* Header y Navegación Start */
 .nombre-sitio {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   text-align: center;
+  font-size: 4rem;
 }
 
 .nombre-sitio span {
@@ -47,11 +54,11 @@ img {
 }
 
 .contenedor-navegacion {
-  border-top: 1px solid #e1e1e1;
+  border-top: 0.1rem solid #e1e1e1;
 }
 
 .nav-principal {
-  padding: 20px 0;
+  padding: 2rem 0;
   display: flex;
   justify-content: space-between;
 }
@@ -60,7 +67,7 @@ img {
   background-image: url(../img/principal.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 550px;
+  height: 55rem;
 }
 
 /* Header y Navegación End */
@@ -73,20 +80,20 @@ img {
 .listado-categorias {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 2rem;
 }
 
 .categoria a {
   text-align: center;
   display: block;
-  padding: 20px;
-  font-size: 20px;
+  padding: 2rem;
+  font-size: 2rem;
 }
 
 .categoria a:hover {
   background-color: #037bc0;
   color: #ffffff;
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 1rem;
 }
 
 /* Categorías End */

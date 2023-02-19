@@ -4,21 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aprendiendo HTML</title>
+    <title>Ecommerce - Inicio</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
   </head>
   <body>
     <header>
-      <h1>Tienda Muebles</h1>
+      <h1 class="nombre-sitio">Tiendas <span>Muebles</span></h1>
     </header>
 
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="nosotros.html">Nosotros</a>
-      <a href="tienda.html">Tienda</a>
-      <a href="blog.html">Blog</a>
-      <a href="galeria.html">Galería</a>
-      <a href="contacto.html">Contacto</a>
-    </nav>
+    <div class="contenedor-navegacion">
+      <nav class="nav-principal contenedor">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="tienda.html">Tienda</a>
+        <a href="blog.html">Blog</a>
+        <a href="galeria.html">Galería</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+
+    <div class="hero"></div>
 
     <section>
       <h2>Categorías De Productos</h2>
@@ -161,6 +167,37 @@
     </main>
 
     <footer>
+      <div>
+        <h3>Categorías</h3>
+        <nav id="navegacion">
+          <a href="#">Cocina</a>
+          <a href="#">Oficina</a>
+          <a href="#">Jardín</a>
+          <a href="#">Cochera</a>
+          <a href="#">Dormitorios</a>
+        </nav>
+      </div>
+
+      <div class="sobre-nosotros">
+        <h3>Sobre Nosotros</h3>
+        <nav class="navegacion">
+          <a href="#">Nuestra Historia</a>
+          <a href="#">Misión, Visión y Valores</a>
+          <a href="#">Carreras</a>
+          <a href="#">Política De Privacidad</a>
+          <a href="#">Terminos Del Servicio</a>
+        </nav>
+      </div>
+
+      <div>
+        <h3>Soporte</h3>
+        <nav>
+          <a href="#">Preguntas Frecuentes</a>
+          <a href="#">Ayuda En Línea</a>
+          <a href="#">Confianza y Seguridad</a>
+        </nav>
+      </div>
+
       <p>Todos los derechos Reservados, TiendasMuebles</p>
     </footer>
   </body>

@@ -19,6 +19,11 @@ a {
   margin: 0 auto;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 /* Globales End */
 
 /* Header y Navegación Start */
@@ -38,6 +43,8 @@ a {
 
 .nav-principal {
   padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero {
@@ -48,6 +55,32 @@ a {
 }
 
 /* Header y Navegación End */
+
+/* Categorías Start */
+.categorias h2 {
+  text-align: center;
+}
+
+.listado-categorias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.categoria a {
+  text-align: center;
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.categoria a:hover {
+  background-color: #037bc0;
+  color: #ffffff;
+  border-bottom-right-radius: 10px;
+}
+
+/* Categorías End */
 
 h1 {
   font-size: 20px;

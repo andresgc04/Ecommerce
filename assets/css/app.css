@@ -58,7 +58,6 @@ img {
   padding: 1rem;
   transition: background-color 0.3s ease-out;
   text-align: center;
-
 }
 
 .btn:hover {
@@ -313,5 +312,10 @@ img {
 
 .entrada-meta span {
   color: #037bc0;
+}
+
+.contenido-entrada-blog {
+  width: 60rem;
+  margin: 0 auto;
 }
 /* Bloque De Blog End*/

@@ -319,3 +319,20 @@ img {
   margin: 0 auto;
 }
 /* Bloque De Blog End*/
+
+/* Bloque De Galeria Start */
+.galeria {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.galeria img {
+  height: 40rem;
+  width: 40rem;
+  object-fit: cover;
+}
+/* Bloque De Galeria End */
